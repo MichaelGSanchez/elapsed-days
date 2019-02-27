@@ -18,7 +18,7 @@ public class DateOnly {
     year = (year - 1970)*-365;
     day = year % 1970;
     month = day/11;
-    return year+month+day;
+    return -year-month-day;
   }
 
 
